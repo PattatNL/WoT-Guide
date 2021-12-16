@@ -1,0 +1,187 @@
+/*Titel van website*/
+h1 {
+    width: 100%;
+    text-align: center;
+    font-family: Boston, serif;
+    margin-bottom: 16px;
+}
+
+/*home pagina titel*/
+.home {
+    margin: 0;
+}
+
+/*hobby lijst op home pagina*/
+.hobby {
+    margin: 0;
+}
+
+/*custom font*/
+@font-face {
+    font-family: boston;
+    src: url("Fonts/boston.ttf")
+}
+
+/*home titel*/
+.hometitle {
+    background-color: #333;
+    border: 2px solid #000;
+    margin-bottom: 16px;
+}
+
+/*by christian tekst*/
+h4 {
+    text-align: center;
+    font-family: boston, serif;
+}
+
+/*body*/
+body {
+    margin: 0;
+    background-image: url("Images/backround website tank 2.0.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*navbar*/
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-bottom: 2px solid #000000;
+    border-top: 2px solid #000000;
+}
+
+/*navbar*/
+.menubaritem {
+    float: left;
+    border-right: 1px solid #000000;
+}
+
+/*navbar*/
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 25px;
+    font-family: Bahnschrift, serif;
+}
+
+/*navbar*/
+ul :hover {
+    background-color: rgb(187, 187, 187);
+
+}
+
+/*navbar*/
+a {
+    text-decoration: none;
+}
+
+.titel {
+    color: #000000;
+
+}
+
+/*logo linkboven*/
+.WoTlogo {
+    width: 180px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/*aliniakop*/
+.aliniakop {
+    text-align: center;
+    font-family: Bahnschrift, serif;
+    color: #ffffff;
+}
+
+/*aliniakop*/
+.aliniakopul {
+    background-color: #333;
+    border: 2px solid #000;
+}
+
+/*navbar*/
+.active {
+    background-color: #4d4d4d;
+}
+
+/*alinia*/
+.alinia {
+    text-align: left;
+    font-family: Bahnschrift, serif;
+    color: #ffffff;
+}
+
+/*alinia*/
+.aliniaul {
+    background-color: #333;
+    border: 2px solid #000;
+}
+
+/*basics plaatje*/
+.WoT-logo-basics {
+    width: 11%;
+    float: right;
+}
+
+/*basics plaatje*/
+.WoT-blitz-logo-basics {
+    width: 11%;
+    float: right;
+}
+
+/*basics plaatje*/
+.Wot-console-logo-basics {
+    width: 11%;
+    float: right;
+}
+
+/*tekstvak*/
+.tekstvak {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    width: 50%;
+    font-family: Bahnschrift, serif;
+}
+
+/*tekstvak*/
+.tekstvakul {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+
+.plaatje_images {
+    width: 100px;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #333333;
+}
+
+th {
+    border: 5px solid #000000;
+}
+
+.video-defending {
+    width: 180px;
+    height: 112px;
+    float: right;
+}
+
+
+
+
+
+
